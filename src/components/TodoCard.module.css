@@ -1,0 +1,35 @@
+.card {
+  min-height: 4rem;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #262626;
+  color: #F2F2F2;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+
+  display: flex;
+}
+
+.completedTask p {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+.card p {
+  flex-grow: 1;
+  padding: 0 .8rem;
+}
+
+.card svg {
+  cursor: pointer;
+}
+
+.uncheckBtn {
+  color: #4EA8DE;
+}
+
+.checkBtn {
+  color: #5E60CE;
+}
